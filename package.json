@@ -1,0 +1,20 @@
+{
+  "name": "teropa-react-voting-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbt/teropa-react-voting-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timbt/teropa-react-voting-client/issues"
+  },
+  "homepage": "https://github.com/timbt/teropa-react-voting-client#readme"
+}
