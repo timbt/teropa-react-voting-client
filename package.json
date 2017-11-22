@@ -37,11 +37,14 @@
     "presets": [
       "es2015",
       "react"
-    ]
+    ],
+    "plugins": "react-hot-loader/babel"
   },
   "dependencies": {
+    "create-react-class": "^15.6.2",
     "immutable": "^3.8.2",
     "react": "^16.1.1",
+    "react-addons-pure-render-mixin": "^15.6.2",
     "react-dom": "^16.1.1"
   }
 }

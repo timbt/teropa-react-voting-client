@@ -4,13 +4,13 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:3001',
         'webpack/hot/only-dev-server',
-        './src/index.js'
+        './src/index.jsx'
     ],
     module: {
         loaders: [{
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            loader: 'react-hot-loader/webpack'
+            loader: 'babel-loader'
         }],
     },
     resolve: {
